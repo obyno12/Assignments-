@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <linK rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="div1">
+    <h1>Registration form</h1>
+    <h3>Please fill in this form to create an account.</h3>
+    <form class="form">
+      <label for="Firstname" class="firstname">First Name:</label>
+      <br>
+      <input type="text" name="FirstName" required="required" id="firstname" placeholder="Firstname"
+        required="required">
+      <br>
+      <label for="Lastname" class="lastname">Last Name:</label>
+      <br>
+      <input type="text" name="LastName" required="required" id="lastname" placeholder="Lastname" required="required">
+      <br>
+
+      <label class="Email">Email:</label>
+      <br>
+      <input type="text" name="email" id="Email" placeholder="example@gmail.com" required="required">
+      
+      <label class="phoneNumber">PhoneNumber:</label>
+      <input type="text" name="phoneNumber" id="phoneNumber" placeholder="PhoneNumber" required="required">
+      <div class="div2">
+        Gender:
+        <select class="select">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+      </div>
+      <label for="Date" class="Date">Date:</label>
+      <input type="date" id="Date" name="first" value="yyyy-month-date" placehplder="Date-of-Birth-MM/DD/YYY"
+        required="required">
+
+      <label for="color" class="color">Favourite Colour</label>
+      <input type="color" id="color" name="color" required placeholder="Favourite color" required="required">
+
+      <h6><button class="btn-primary"><a href="Login.html">Register</a></button></h6>
+
+      <h4>By Creating an account you agree to our<a href="index.html">Terms and condition</a></h4>
+      <h5>Already have an account? <a href="Login.html">Log in</a></h5>
+
+  </div>
+  </form>
+
+
+  </div>
+</body>
+
+</html>
